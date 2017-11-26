@@ -237,3 +237,73 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Media queries Screen Sizes */
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+
+  .main-section,
+  .container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+  #connect,
+  .sidebar {
+    width: 100%;
+    float: left;
+    max-width: 100%
+  }
+
+}
+/* Additional Screen Sizes */
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+  
+  .main-section,
+  .container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+  #connect,
+  .sidebar {
+    width: 100%;
+    float: left;
+    max-width: 100%
+  }
+
+  nav {
+    float: left;
+  }
+
+}
+/* Width at 640px and below */
+@media screen and (max-width: 640px) {
+ 
+  .main-section,
+  .container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+  #connect,
+  .sidebar {
+    width: 100%;
+    float: left;
+    max-width: 100%;
+  }
+
+  #masthead{
+    position: static;
+  }
+
+  nav {
+    float: left;
+  }
+
+}
+
