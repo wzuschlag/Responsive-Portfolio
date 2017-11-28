@@ -305,5 +305,14 @@ input[type=submit] {
     float: left;
   }
 
+  #main-container{
+    padding-top: 10px;
+  }
+
+  #logo{
+    margin-left: 0px;
+    width: 100%;
+  }
+
 }
 
